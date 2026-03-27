@@ -16,7 +16,7 @@ phases:
       - mkdir -p scripts
       - cp restart.sh scripts/
 
-  post_build:
+  post_build: 
     commands:
       - echo "Post build phase"
 
