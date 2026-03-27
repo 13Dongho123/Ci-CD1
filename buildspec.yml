@@ -11,8 +11,7 @@ phases:
       - mkdir -p output
       - cp Portal.html output/
 
-      - mkdir -p scripts
-      - cp scripts/restart.sh scripts/
+
 
   post_build:
     commands:
