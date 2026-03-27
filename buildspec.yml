@@ -13,7 +13,7 @@ phases:
 
       # CodeDeploy 파일 포함
       - cp appspec.yml ./dh-bucket/
-      - mkdir -p scripts
+      - mkdir -p ./dh-bucket/scripts
       - cp ./dh-bucket/scripts/restart.sh scripts/
 
   post_build:
